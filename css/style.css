@@ -1,0 +1,55 @@
+
+
+body {
+	margin: 0px;
+    background-image: url("img/symphony.png"); /*****added quotation marks for img link and separated repeat*****/
+    background-repeat: repeat;
+	/* Background image from http://subtlepatterns.com/ */
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color:DimGray;
+}
+/*****removed h1, h2, h3, h4 as unneccessary*****/
+
+/*****removed h1 and and h2 color and added to class names .name .title to make neater*****/
+
+
+#wrapper {
+	margin-top:150px;
+}
+
+.name {
+    border: 10px solid tomato;
+    color: tomato;
+	padding: 30px;
+	display: inline;
+}
+
+.title {
+    color: #fa8072;
+    margin-top: 40px;
+    padding: 30px;
+}
+.phone {
+	color:DarkSeaGreen;
+}
+
+a .email {
+	color:DarkSeaGreen;
+	text-decoration:none;
+}
+/*****changed order of classes to reflect order in html doc*****/
+/* -------------- Quote Styles ------------*/
+.quote {
+	font-style:italic;
+	font-size:20px;
+	margin-top:50px;
+	line-height:30px;
+}
+
+
+.line-break {
+	border: 1px solid grey;
+    margin: 30px auto;
+    width: 50%;
+}
